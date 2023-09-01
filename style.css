@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    backgroud:linear-gradient(gray, white);
+
+}
+body{
+    background:url(leone-venter-VieM9BdZKFo-unsplash.jpg) no-repeat;
+    background-size:cover;
+}
+ul{
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;   
+}
+li{
+    float: right;
+}
+#left{
+    float: left; 
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "ubuntu",sans-serif;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 22px;   
+}
+  li a:hover {
+    background-color: rgb(95, 29, 141);
+  }
+footer{
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 18px 20px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
